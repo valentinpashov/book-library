@@ -1,0 +1,15 @@
+<section id="catalog">
+    <h1>All Books</h1>
+
+    <div class="band" style="background-color: rgb(0, 0, 0);">   
+
+        {{#each movies}}
+            {{>movie}}
+        {{else}}
+            <div class="no-posts">
+                <p class="no-offer">There are no books matched...</p>
+            </div>
+        {{/each}}     
+
+    </div>
+</section>
