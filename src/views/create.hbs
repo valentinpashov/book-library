@@ -1,0 +1,48 @@
+<section id="create-page">
+    <div class="createSection">
+        <div class="info" style="background-color: white;">
+            <h2>After each book, I make a list</h2>
+        </div>
+
+        <form action="/movies/create" method="POST" class="createForm">
+            <h2>Add Book</h2>
+            <ul class="noBullet">
+                <li>
+                    <label for="place" style="color: black;">Name:</label>
+                    <input type="text" class="inputFields" id="place" name="place"/>
+                </li>
+               
+                <li>
+                    <label for="price" style="color: black;">Price:</label>
+                    <input type="text" class="inputFields" id="price" name="price"/>
+                </li>
+                <li>
+                    <label for="purpose" style="color: black;">Purpose:</label>
+                    <input type="text" class="inputFields" id="purpose" name="purpose" />
+                </li>
+                <li>
+                    <label for="date" style="color: black;">Year:</label>
+                    <input type="number" class="inputFields" id="year" name="year" />
+                </li>
+                <li>
+                    <label for="image" style="color: black;">Image Url:</label>
+                    <input type="text" class="inputFields" id="image" name="imageUrl"  />
+                </li>
+                <li>
+                    <label for="image" style="color: black;">Rating:</label>
+                    <input type="text" class="inputFields" id="rating" name="rating" />
+                </li>
+                <li>
+                    <label for="description" style="color: black;">Description:</label>
+                    <textarea id="description" class="inputFields" name="description"></textarea>
+                </li>
+
+                <li id="center-btn">
+                    <button id="create-btn">Add Book</button>
+                </li>
+            </ul>
+        </form>
+
+
+    </div>
+</section>
