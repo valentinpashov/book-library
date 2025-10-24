@@ -1,0 +1,32 @@
+export default [
+    {
+        id: "1",
+        name: 'Sapiens: A Brief History of Humankind',
+        price: '$14.99',
+        description: '"Sapiens" explores the history of humankind from the Stone Age to the modern age, blending history and science to explore how Homo sapiens came to dominate the Earth.',
+        imageUrl: '/static/img/book1.jpg',
+        purpose: 'educate',
+        year: '2011',
+        rating: 4.75,
+    },
+    {
+        id: "2",
+        name: 'Educated',
+        price: '$11.99',
+        description: 'A memoir about a young woman who, raised by survivalists in the mountains of Idaho, decides to pursue education and eventually earns a PhD from Cambridge University.',
+        imageUrl: '/static/img/book2.webp',
+        purpose: 'educate',
+        year: '2018',
+        rating: 4.6,
+    },
+    {
+        id: "6b3677b9-2798-4a60-95b9-966fdfe68e81",
+        name: 'Atomic Habits',
+        price: '$16.99',   
+        description: '"Atomic Habits" offers practical strategies for forming good habits, breaking bad ones, and mastering the tiny behaviors that lead to remarkable results.',
+        imageUrl: '/static/img/book3.webp',
+        purpose: 'personal educate',
+        year: '2018',
+        rating: 4.5,
+    },
+] 

@@ -1,0 +1,53 @@
+.full-screen {
+  background-color: #71f7a0;
+  width: 100%;
+  margin-top: 3em;
+  height: 530px;
+  text-align: center;
+}
+
+.not-found {
+  padding-top: 2em;
+  padding: auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.not-found .ufo-img img {
+    width: 350px;
+}
+
+.ufo-img img {
+  margin-top: 80px;
+}
+
+.error-num{
+    font-size: 150px;
+    color: black;
+}
+
+.not-found  p {
+  margin-bottom: 2em;
+  margin-top: 1em;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+.not-found .error-message > p > a {
+  color: #000000;
+  font-weight: bold;
+  font-size: 40px;
+  font-variant: small-caps;
+  text-decoration: rgb(243, 243, 243);
+}
+
+.not-found .error-message > p > a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.error-message {
+    margin-top: 3em;
+}

@@ -1,0 +1,225 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#box {
+    height: auto;
+    width: auto;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+main {
+    padding-bottom: 5em;
+}
+
+body {
+    background-color: #71f7a0;
+    background-position: 20% 82%;
+    backdrop-filter: blur(4px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    
+}
+
+nav {
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    padding: 0rem 2rem 0 3rem;
+    margin: 0%;
+    height: 70px;
+    
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c70b0b;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0 0 0 auto;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 0.8em;
+}
+
+nav a {
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 0.5em;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav>img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav a:hover {
+    font-weight: normal;
+    height: 30px;
+    border-radius: 10%;
+    font-weight: bold;
+    background-color: #6e6363;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+
+.footer-section ul li a i {
+    margin-right: 8px;
+    color: white;
+}
+
+.footer-section ul li a:hover {
+    color: rgb(26, 179, 100);
+}
+
+.footer-section p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.footer-section p i {
+    margin-right: 8px;
+    color: white;
+}
+.footer-bottom{
+    text-align: center;
+}
+
+.social-links a {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a i {
+    margin-right: 8px;
+    color: white;
+}
+
+.social-links a:hover {
+    color: rgb(8, 149, 214);
+}
+
+.error-container {
+    position: fixed;
+    right: 5em;
+    min-width: 80px;
+    display: block;
+    z-index: 11111;
+    top: 13%;
+    text-align: center;
+    border-radius: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: bold;
+    height: auto;
+    width: 300px;
+    padding: 1em;
+}
+
+
+@keyframes cssAnimation {
+    to {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        padding: 0;
+    }
+}
+
+@-webkit-keyframes cssAnimation {
+    to {
+        width: 0;
+        height: 0;
+        visibility: hidden;
+        padding: 0;
+    }
+}

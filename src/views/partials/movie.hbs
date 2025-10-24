@@ -1,0 +1,38 @@
+<div class="flip flip-vertical">
+  <div class="front">
+    <img src="{{imageUrl}}" alt="{{place}}" />
+  </div>
+  <div class="back">
+    <h1>{{place}}</h1>
+    <h2>Price: {{price}}</h2>
+    <p>Description: {{description}}</p>
+    <a href="/movies/{{id}}/details" class="details">Details</a>
+    <a href="" class="delete" onclick="deleteMovie('{{id}}', this)">Delete</a>  
+  </div>
+</div>
+
+
+<script>
+    async function deleteMovie(movieId, element) {
+      if (confirm("Are you sure you want to delete this movie?")) {
+        try {
+          const response = await fetch(`/movies/${movieId}/delete`, {
+            method: "DELETE",
+          });
+          /*  Проверка
+          const result = await response.json();  
+
+          if (result.success) {
+            element.closest('.flip.flip-vertical').remove();
+            alert(result.message);
+          } else {
+            alert("Error while deleting:");
+          }
+          */
+        } catch (error) {
+          console.error("Error while deleting:", error);
+  
+        }
+      }
+    }
+  </script>
